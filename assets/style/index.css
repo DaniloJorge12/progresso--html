@@ -50,3 +50,7 @@ h2 {
     color: aliceblue;
     display: flex;
 }
+
+.justify-center {
+    justify-content: center;
+}
