@@ -4,10 +4,33 @@
     box-sizing: border-box;
 }
 
+.sinal {
+    border-radius: 50%;
+    height: 500px;
+    width: 200px;
+}
 
-.flex-container {
-    width: 400px;
-    height: 200px;
-    background-color: rgb(34, 34, 170);
-    margin: 50px auto;
+.vermelho {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+}
+.amarelo {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: rgb(252, 255, 56);
+        display: flex;
+        justify-content: center;
+}
+.verde {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: rgb(6, 192, 0);
+        display: flex;
+        justify-content: center;
 }
