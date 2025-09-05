@@ -62,6 +62,8 @@
         height: 600px;
         width: 300px;
         border-radius: 20px;
+        margin-bottom: 0;
+        box-shadow: 0 0 20px gray;
     }
     
     .sinal {
@@ -84,14 +86,26 @@
     .vermelho:hover {
         background-color: rgb(207, 0, 0);
         transform: scale(1.2);
+        box-shadow: 0 0 20px red;
     }
     
     .amarelo:hover {
         background-color: rgb(221, 199, 1);
         transform: scale(1.2);
+        box-shadow: 0 0 20px yellow;
     }
     
     .verde:hover {
         background-color: rgb(13, 158, 13);
         transform: scale(1.2);
+        box-shadow: 0 0 20px green;
+    }
+
+    .barra {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto 30px;
+        background-color: #474747;
+        height: 300px;
+        width: 60px;
     }
