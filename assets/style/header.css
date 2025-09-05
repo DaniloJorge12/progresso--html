@@ -13,9 +13,9 @@ header {
     align-items: center;
 }
 
-.logo {
-    font-size: 26px;
-    font-weight: bold;
+.imagem {
+    width: 150px;
+    height: 100px
 }
 
 .menu {
